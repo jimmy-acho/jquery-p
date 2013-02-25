@@ -3,9 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title></title>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="lightbox.js"></script>
     <link type="text/css" rel="stylesheet" href="css/lightbox.css" />
     
     <style>
@@ -19,8 +18,12 @@
   </head>
   <body>
     <div id="wrapper">
-      <a href="http://kinoafisha.ua/upload/2012/12/films/5369/fotos/1356215445asteriks-v-britanii.jpg"
-         rel="lightbox" >Жерар</a>
+      <a href="images/asteriks-v-britanii.jpg"
+         rel="lightbox[natly]" 
+         title="Жерар">Жерар</a>
+      <a href="images/sea.jpg"
+         rel="lightbox[natly]" 
+         title="Морееееееееееее">Морееееееееееее!</a>
       <a class="resize" href="#">Развернуть / свернуть</a>
       <div class="resize">
         Какой-то текст
